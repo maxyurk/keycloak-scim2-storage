@@ -41,7 +41,8 @@ public class ScimClient2 {
         log.info("SCIM 2.0 endPoint: " + endPoint);
 
         Scim2ClientBuilder builder = new Scim2ClientBuilder(endPoint)
-                .usernamePassword(username, password)
+                .bearerToken(password)
+                // .usernamePassword(username, password)
                 .allowSelfSigned(true);
 
         try {

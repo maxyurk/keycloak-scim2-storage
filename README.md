@@ -1,3 +1,11 @@
+# Fork for testing
+Testing this project for integration with Artifactory as SCIM client
+converted password to beaerer (username is ignored)
+
+
+--------------------
+
+
 # Keycloak SCIM 2.0 outbound user provisioning
 
 **Keycloak** is an open source Identity and Access management system for modern applications and services.
